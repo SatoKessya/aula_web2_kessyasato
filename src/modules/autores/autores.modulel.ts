@@ -3,8 +3,8 @@ import { AutoresController } from './autores.controller';
 import { AutoresService } from './autores.service';
 
 @Module({
-  controllers: [AutoresController],
-  providers: [AutoresService],
-  exports: [],
+    controllers: [AutoresController],
+    providers: [AutoresService],
+    exports: [],
 })
 export class AutoresModule {}
